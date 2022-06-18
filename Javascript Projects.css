@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+.d-flex{
+    display: flex;
+}
+.justify-content-space-between{
+    justify-content: space-between;
+}
+section{
+    padding: 10px 10vw;
+    background-color: #FBD4B0;
+}
+.logo-container{
+    width:15vw;
+}
+.logo-container img{
+    width: 100% ;
+}
+.menu-container h4{
+    margin-right: 10px;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.hamburger{
+    padding-top: 4vh;
+}
+.ham{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin-bottom: 5px;
+}
+.hero-section2 div{
+    width:50vw;
+}
+.hero-section2 div h1{
+    font-size: 4rem;
+    font-weight: 700;
+    padding-left: 2px;
+}
+@media screen and (min-width: 400px) {
+    .hero-section2 div h1{
+        font-size: 2rem;
+        font-weight: 700;
+        padding-left: 2px;
+    }
+}
+@media screen and (min-width: 700px) {
+
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .hero-section2 div h1{
+        font-size: 4rem;
+    }
+    
+}
+
